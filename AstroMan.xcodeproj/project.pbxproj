@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B23BD21E05F13000105827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BD11E05F13000105827 /* AppDelegate.swift */; };
+		74B23BD41E05F13000105827 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BD31E05F13000105827 /* GameScene.sks */; };
+		74B23BD61E05F13000105827 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BD51E05F13000105827 /* Actions.sks */; };
+		74B23BD81E05F13000105827 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BD71E05F13000105827 /* GameScene.swift */; };
+		74B23BDA1E05F13000105827 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BD91E05F13000105827 /* GameViewController.swift */; };
+		74B23BDD1E05F13000105827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BDB1E05F13000105827 /* Main.storyboard */; };
+		74B23BDF1E05F13000105827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BDE1E05F13000105827 /* Assets.xcassets */; };
+		74B23BE21E05F13000105827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BE01E05F13000105827 /* LaunchScreen.storyboard */; };
+		74B23BED1E05F13000105827 /* AstroManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BEC1E05F13000105827 /* AstroManTests.swift */; };
+		74B23BF81E05F13000105827 /* AstroManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BF71E05F13000105827 /* AstroManUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74B23BE91E05F13000105827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B23BC61E05F13000105827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B23BCD1E05F13000105827;
+			remoteInfo = AstroMan;
+		};
+		74B23BF41E05F13000105827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B23BC61E05F13000105827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B23BCD1E05F13000105827;
+			remoteInfo = AstroMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74B23BCE1E05F13000105827 /* AstroMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B23BD11E05F13000105827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74B23BD31E05F13000105827 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		74B23BD51E05F13000105827 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		74B23BD71E05F13000105827 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		74B23BD91E05F13000105827 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		74B23BDC1E05F13000105827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B23BDE1E05F13000105827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B23BE11E05F13000105827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B23BE31E05F13000105827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B23BE81E05F13000105827 /* AstroManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B23BEC1E05F13000105827 /* AstroManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroManTests.swift; sourceTree = "<group>"; };
+		74B23BEE1E05F13000105827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B23BF31E05F13000105827 /* AstroManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B23BF71E05F13000105827 /* AstroManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroManUITests.swift; sourceTree = "<group>"; };
+		74B23BF91E05F13000105827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B23BCB1E05F13000105827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B23BE51E05F13000105827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B23BF01E05F13000105827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B23BC51E05F13000105827 = {
+			isa = PBXGroup;
+			children = (
+				74B23BD01E05F13000105827 /* AstroMan */,
+				74B23BEB1E05F13000105827 /* AstroManTests */,
+				74B23BF61E05F13000105827 /* AstroManUITests */,
+				74B23BCF1E05F13000105827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B23BCF1E05F13000105827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B23BCE1E05F13000105827 /* AstroMan.app */,
+				74B23BE81E05F13000105827 /* AstroManTests.xctest */,
+				74B23BF31E05F13000105827 /* AstroManUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B23BD01E05F13000105827 /* AstroMan */ = {
+			isa = PBXGroup;
+			children = (
+				74B23BD11E05F13000105827 /* AppDelegate.swift */,
+				74B23BD31E05F13000105827 /* GameScene.sks */,
+				74B23BD51E05F13000105827 /* Actions.sks */,
+				74B23BD71E05F13000105827 /* GameScene.swift */,
+				74B23BD91E05F13000105827 /* GameViewController.swift */,
+				74B23BDB1E05F13000105827 /* Main.storyboard */,
+				74B23BDE1E05F13000105827 /* Assets.xcassets */,
+				74B23BE01E05F13000105827 /* LaunchScreen.storyboard */,
+				74B23BE31E05F13000105827 /* Info.plist */,
+			);
+			path = AstroMan;
+			sourceTree = "<group>";
+		};
+		74B23BEB1E05F13000105827 /* AstroManTests */ = {
+			isa = PBXGroup;
+			children = (
+				74B23BEC1E05F13000105827 /* AstroManTests.swift */,
+				74B23BEE1E05F13000105827 /* Info.plist */,
+			);
+			path = AstroManTests;
+			sourceTree = "<group>";
+		};
+		74B23BF61E05F13000105827 /* AstroManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74B23BF71E05F13000105827 /* AstroManUITests.swift */,
+				74B23BF91E05F13000105827 /* Info.plist */,
+			);
+			path = AstroManUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B23BCD1E05F13000105827 /* AstroMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B23BFC1E05F13000105827 /* Build configuration list for PBXNativeTarget "AstroMan" */;
+			buildPhases = (
+				74B23BCA1E05F13000105827 /* Sources */,
+				74B23BCB1E05F13000105827 /* Frameworks */,
+				74B23BCC1E05F13000105827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroMan;
+			productName = AstroMan;
+			productReference = 74B23BCE1E05F13000105827 /* AstroMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B23BE71E05F13000105827 /* AstroManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B23BFF1E05F13000105827 /* Build configuration list for PBXNativeTarget "AstroManTests" */;
+			buildPhases = (
+				74B23BE41E05F13000105827 /* Sources */,
+				74B23BE51E05F13000105827 /* Frameworks */,
+				74B23BE61E05F13000105827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B23BEA1E05F13000105827 /* PBXTargetDependency */,
+			);
+			name = AstroManTests;
+			productName = AstroManTests;
+			productReference = 74B23BE81E05F13000105827 /* AstroManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74B23BF21E05F13000105827 /* AstroManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B23C021E05F13000105827 /* Build configuration list for PBXNativeTarget "AstroManUITests" */;
+			buildPhases = (
+				74B23BEF1E05F13000105827 /* Sources */,
+				74B23BF01E05F13000105827 /* Frameworks */,
+				74B23BF11E05F13000105827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B23BF51E05F13000105827 /* PBXTargetDependency */,
+			);
+			name = AstroManUITests;
+			productName = AstroManUITests;
+			productReference = 74B23BF31E05F13000105827 /* AstroManUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B23BC61E05F13000105827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zachary Marvin";
+				TargetAttributes = {
+					74B23BCD1E05F13000105827 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SXFRPF7CQ4;
+						ProvisioningStyle = Automatic;
+					};
+					74B23BE71E05F13000105827 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SXFRPF7CQ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74B23BCD1E05F13000105827;
+					};
+					74B23BF21E05F13000105827 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SXFRPF7CQ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74B23BCD1E05F13000105827;
+					};
+				};
+			};
+			buildConfigurationList = 74B23BC91E05F13000105827 /* Build configuration list for PBXProject "AstroMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B23BC51E05F13000105827;
+			productRefGroup = 74B23BCF1E05F13000105827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B23BCD1E05F13000105827 /* AstroMan */,
+				74B23BE71E05F13000105827 /* AstroManTests */,
+				74B23BF21E05F13000105827 /* AstroManUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B23BCC1E05F13000105827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B23BDD1E05F13000105827 /* Main.storyboard in Resources */,
+				74B23BD41E05F13000105827 /* GameScene.sks in Resources */,
+				74B23BDF1E05F13000105827 /* Assets.xcassets in Resources */,
+				74B23BE21E05F13000105827 /* LaunchScreen.storyboard in Resources */,
+				74B23BD61E05F13000105827 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B23BE61E05F13000105827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B23BF11E05F13000105827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B23BCA1E05F13000105827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B23BD81E05F13000105827 /* GameScene.swift in Sources */,
+				74B23BDA1E05F13000105827 /* GameViewController.swift in Sources */,
+				74B23BD21E05F13000105827 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B23BE41E05F13000105827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B23BED1E05F13000105827 /* AstroManTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B23BEF1E05F13000105827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B23BF81E05F13000105827 /* AstroManUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74B23BEA1E05F13000105827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B23BCD1E05F13000105827 /* AstroMan */;
+			targetProxy = 74B23BE91E05F13000105827 /* PBXContainerItemProxy */;
+		};
+		74B23BF51E05F13000105827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B23BCD1E05F13000105827 /* AstroMan */;
+			targetProxy = 74B23BF41E05F13000105827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74B23BDB1E05F13000105827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B23BDC1E05F13000105827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B23BE01E05F13000105827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B23BE11E05F13000105827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B23BFA1E05F13000105827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74B23BFB1E05F13000105827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B23BFD1E05F13000105827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SXFRPF7CQ4;
+				INFOPLIST_FILE = AstroMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinGardenGaming.AstroMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		74B23BFE1E05F13000105827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SXFRPF7CQ4;
+				INFOPLIST_FILE = AstroMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinGardenGaming.AstroMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		74B23C001E05F13000105827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SXFRPF7CQ4;
+				INFOPLIST_FILE = AstroManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinGardenGaming.AstroManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroMan.app/AstroMan";
+			};
+			name = Debug;
+		};
+		74B23C011E05F13000105827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SXFRPF7CQ4;
+				INFOPLIST_FILE = AstroManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinGardenGaming.AstroManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroMan.app/AstroMan";
+			};
+			name = Release;
+		};
+		74B23C031E05F13000105827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SXFRPF7CQ4;
+				INFOPLIST_FILE = AstroManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinGardenGaming.AstroManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AstroMan;
+			};
+			name = Debug;
+		};
+		74B23C041E05F13000105827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SXFRPF7CQ4;
+				INFOPLIST_FILE = AstroManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarvinGardenGaming.AstroManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AstroMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B23BC91E05F13000105827 /* Build configuration list for PBXProject "AstroMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B23BFA1E05F13000105827 /* Debug */,
+				74B23BFB1E05F13000105827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B23BFC1E05F13000105827 /* Build configuration list for PBXNativeTarget "AstroMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B23BFD1E05F13000105827 /* Debug */,
+				74B23BFE1E05F13000105827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74B23BFF1E05F13000105827 /* Build configuration list for PBXNativeTarget "AstroManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B23C001E05F13000105827 /* Debug */,
+				74B23C011E05F13000105827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74B23C021E05F13000105827 /* Build configuration list for PBXNativeTarget "AstroManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B23C031E05F13000105827 /* Debug */,
+				74B23C041E05F13000105827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B23BC61E05F13000105827 /* Project object */;
+}
