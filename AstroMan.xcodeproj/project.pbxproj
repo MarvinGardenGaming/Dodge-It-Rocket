@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74313ACC1E08B0950036D82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74313ACB1E08B0950036D82E /* Assets.xcassets */; };
+		74313AD01E08B3D00036D82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74313ACE1E08B3D00036D82E /* Assets.xcassets */; };
+		74313AD21E08BF620036D82E /* fireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 74313AD11E08BF620036D82E /* fireParticle.sks */; };
+		7460DF0F1E0A066300EB5F58 /* thrustSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7460DF0E1E0A066300EB5F58 /* thrustSound.mp3 */; };
+		7460DF121E0A369800EB5F58 /* spaceranger.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7460DF111E0A369800EB5F58 /* spaceranger.ttf */; };
+		746CF5EB1E1CDAE500978AF1 /* ChangeShipColorScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CF5EA1E1CDAE500978AF1 /* ChangeShipColorScene.swift */; };
+		746CF5ED1E23628A00978AF1 /* OtherScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CF5EC1E23628A00978AF1 /* OtherScene.swift */; };
 		74B23BD21E05F13000105827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BD11E05F13000105827 /* AppDelegate.swift */; };
 		74B23BD41E05F13000105827 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BD31E05F13000105827 /* GameScene.sks */; };
 		74B23BD61E05F13000105827 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BD51E05F13000105827 /* Actions.sks */; };
@@ -14,9 +21,18 @@
 		74B23BDA1E05F13000105827 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BD91E05F13000105827 /* GameViewController.swift */; };
 		74B23BDD1E05F13000105827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BDB1E05F13000105827 /* Main.storyboard */; };
 		74B23BDF1E05F13000105827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BDE1E05F13000105827 /* Assets.xcassets */; };
-		74B23BE21E05F13000105827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B23BE01E05F13000105827 /* LaunchScreen.storyboard */; };
 		74B23BED1E05F13000105827 /* AstroManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BEC1E05F13000105827 /* AstroManTests.swift */; };
 		74B23BF81E05F13000105827 /* AstroManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23BF71E05F13000105827 /* AstroManUITests.swift */; };
+		74B23C061E05F41900105827 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23C051E05F41900105827 /* GameOverScene.swift */; };
+		74B23C081E05F44400105827 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B23C071E05F44400105827 /* MainMenuScene.swift */; };
+		74B23C0A1E05F4A500105827 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74B23C091E05F4A500105827 /* explosion.wav */; };
+		74B23C0F1E05F54700105827 /* Backing Audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74B23C0E1E05F54700105827 /* Backing Audio.mp3 */; };
+		74C3CD351E2E0B8500483B0C /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74C3CD341E2E0B8500483B0C /* buttonClick.mp3 */; };
+		74C3CD371E2E0FB100483B0C /* coinSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74C3CD361E2E0FB100483B0C /* coinSound.wav */; };
+		74C3CD391E2E13D000483B0C /* fuelSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74C3CD381E2E13D000483B0C /* fuelSound.mp3 */; };
+		74C3CD411E334C9800483B0C /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C3CD401E334C9800483B0C /* GoogleMobileAds.framework */; };
+		74C3CD431E334CA200483B0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74C3CD421E334CA200483B0C /* GoogleService-Info.plist */; };
+		74D493661E121EC800DB1BF0 /* ChangeShipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D493651E121EC800DB1BF0 /* ChangeShipScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74313ACB1E08B0950036D82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74313ACE1E08B3D00036D82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		74313AD11E08BF620036D82E /* fireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = fireParticle.sks; path = ../fireParticle.sks; sourceTree = "<group>"; };
+		7460DF0E1E0A066300EB5F58 /* thrustSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thrustSound.mp3; sourceTree = "<group>"; };
+		7460DF101E0A35D800EB5F58 /* spaceranger.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = spaceranger.ttf; sourceTree = "<group>"; };
+		7460DF111E0A369800EB5F58 /* spaceranger.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = spaceranger.ttf; sourceTree = "<group>"; };
+		746CF5EA1E1CDAE500978AF1 /* ChangeShipColorScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeShipColorScene.swift; sourceTree = "<group>"; };
+		746CF5EC1E23628A00978AF1 /* OtherScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherScene.swift; sourceTree = "<group>"; };
 		74B23BCE1E05F13000105827 /* AstroMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B23BD11E05F13000105827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74B23BD31E05F13000105827 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -45,7 +69,6 @@
 		74B23BD91E05F13000105827 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		74B23BDC1E05F13000105827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74B23BDE1E05F13000105827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		74B23BE11E05F13000105827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B23BE31E05F13000105827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74B23BE81E05F13000105827 /* AstroManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B23BEC1E05F13000105827 /* AstroManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroManTests.swift; sourceTree = "<group>"; };
@@ -53,6 +76,16 @@
 		74B23BF31E05F13000105827 /* AstroManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B23BF71E05F13000105827 /* AstroManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroManUITests.swift; sourceTree = "<group>"; };
 		74B23BF91E05F13000105827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B23C051E05F41900105827 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		74B23C071E05F44400105827 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		74B23C091E05F4A500105827 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		74B23C0E1E05F54700105827 /* Backing Audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Backing Audio.mp3"; sourceTree = "<group>"; };
+		74C3CD341E2E0B8500483B0C /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonClick.mp3; sourceTree = "<group>"; };
+		74C3CD361E2E0FB100483B0C /* coinSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coinSound.wav; sourceTree = "<group>"; };
+		74C3CD381E2E13D000483B0C /* fuelSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fuelSound.mp3; sourceTree = "<group>"; };
+		74C3CD401E334C9800483B0C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		74C3CD421E334CA200483B0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74D493651E121EC800DB1BF0 /* ChangeShipScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeShipScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C3CD411E334C9800483B0C /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +117,7 @@
 		74B23BC51E05F13000105827 = {
 			isa = PBXGroup;
 			children = (
+				7460DF111E0A369800EB5F58 /* spaceranger.ttf */,
 				74B23BD01E05F13000105827 /* AstroMan */,
 				74B23BEB1E05F13000105827 /* AstroManTests */,
 				74B23BF61E05F13000105827 /* AstroManUITests */,
@@ -103,15 +138,31 @@
 		74B23BD01E05F13000105827 /* AstroMan */ = {
 			isa = PBXGroup;
 			children = (
+				74C3CD401E334C9800483B0C /* GoogleMobileAds.framework */,
 				74B23BD11E05F13000105827 /* AppDelegate.swift */,
 				74B23BD31E05F13000105827 /* GameScene.sks */,
 				74B23BD51E05F13000105827 /* Actions.sks */,
+				74313AD11E08BF620036D82E /* fireParticle.sks */,
+				74C3CD421E334CA200483B0C /* GoogleService-Info.plist */,
+				74313ACE1E08B3D00036D82E /* Assets.xcassets */,
 				74B23BD71E05F13000105827 /* GameScene.swift */,
 				74B23BD91E05F13000105827 /* GameViewController.swift */,
 				74B23BDB1E05F13000105827 /* Main.storyboard */,
+				74313ACB1E08B0950036D82E /* Assets.xcassets */,
 				74B23BDE1E05F13000105827 /* Assets.xcassets */,
-				74B23BE01E05F13000105827 /* LaunchScreen.storyboard */,
 				74B23BE31E05F13000105827 /* Info.plist */,
+				74B23C051E05F41900105827 /* GameOverScene.swift */,
+				74B23C071E05F44400105827 /* MainMenuScene.swift */,
+				746CF5EC1E23628A00978AF1 /* OtherScene.swift */,
+				74D493651E121EC800DB1BF0 /* ChangeShipScene.swift */,
+				746CF5EA1E1CDAE500978AF1 /* ChangeShipColorScene.swift */,
+				74C3CD361E2E0FB100483B0C /* coinSound.wav */,
+				74C3CD381E2E13D000483B0C /* fuelSound.mp3 */,
+				74C3CD341E2E0B8500483B0C /* buttonClick.mp3 */,
+				7460DF0E1E0A066300EB5F58 /* thrustSound.mp3 */,
+				74B23C091E05F4A500105827 /* explosion.wav */,
+				7460DF101E0A35D800EB5F58 /* spaceranger.ttf */,
+				74B23C0E1E05F54700105827 /* Backing Audio.mp3 */,
 			);
 			path = AstroMan;
 			sourceTree = "<group>";
@@ -244,11 +295,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B23C0F1E05F54700105827 /* Backing Audio.mp3 in Resources */,
+				74B23C0A1E05F4A500105827 /* explosion.wav in Resources */,
+				74C3CD431E334CA200483B0C /* GoogleService-Info.plist in Resources */,
 				74B23BDD1E05F13000105827 /* Main.storyboard in Resources */,
+				74313AD01E08B3D00036D82E /* Assets.xcassets in Resources */,
+				74C3CD391E2E13D000483B0C /* fuelSound.mp3 in Resources */,
+				74313AD21E08BF620036D82E /* fireParticle.sks in Resources */,
 				74B23BD41E05F13000105827 /* GameScene.sks in Resources */,
+				74C3CD351E2E0B8500483B0C /* buttonClick.mp3 in Resources */,
 				74B23BDF1E05F13000105827 /* Assets.xcassets in Resources */,
-				74B23BE21E05F13000105827 /* LaunchScreen.storyboard in Resources */,
+				74313ACC1E08B0950036D82E /* Assets.xcassets in Resources */,
+				7460DF0F1E0A066300EB5F58 /* thrustSound.mp3 in Resources */,
+				7460DF121E0A369800EB5F58 /* spaceranger.ttf in Resources */,
 				74B23BD61E05F13000105827 /* Actions.sks in Resources */,
+				74C3CD371E2E0FB100483B0C /* coinSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B23C081E05F44400105827 /* MainMenuScene.swift in Sources */,
 				74B23BD81E05F13000105827 /* GameScene.swift in Sources */,
 				74B23BDA1E05F13000105827 /* GameViewController.swift in Sources */,
+				746CF5ED1E23628A00978AF1 /* OtherScene.swift in Sources */,
+				746CF5EB1E1CDAE500978AF1 /* ChangeShipColorScene.swift in Sources */,
+				74B23C061E05F41900105827 /* GameOverScene.swift in Sources */,
+				74D493661E121EC800DB1BF0 /* ChangeShipScene.swift in Sources */,
 				74B23BD21E05F13000105827 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,14 +383,6 @@
 				74B23BDC1E05F13000105827 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		74B23BE01E05F13000105827 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74B23BE11E05F13000105827 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -427,12 +485,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = SXFRPF7CQ4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AstroMan",
+				);
 				INFOPLIST_FILE = AstroMan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MarvinGardenGaming.AstroMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -441,11 +506,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SXFRPF7CQ4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AstroMan",
+				);
 				INFOPLIST_FILE = AstroMan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MarvinGardenGaming.AstroMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -526,6 +597,7 @@
 				74B23BFE1E05F13000105827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74B23BFF1E05F13000105827 /* Build configuration list for PBXNativeTarget "AstroManTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +606,7 @@
 				74B23C011E05F13000105827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74B23C021E05F13000105827 /* Build configuration list for PBXNativeTarget "AstroManUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +615,7 @@
 				74B23C041E05F13000105827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
