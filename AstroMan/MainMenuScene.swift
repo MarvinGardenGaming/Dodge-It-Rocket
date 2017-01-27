@@ -62,12 +62,20 @@ class MainMenuScene: SKScene{
         self.addChild(gameBy)
         
         let gameName1 = SKLabelNode(fontNamed: "spaceranger")
-        gameName1.text = "RocketMan"
-        gameName1.fontSize = 133
+        gameName1.text = "Dodge It"
+        gameName1.fontSize = 150
         gameName1.fontColor = SKColor.white
-        gameName1.position = CGPoint(x: self.size.width*0.5, y: self.size.height*0.67)
+        gameName1.position = CGPoint(x: self.size.width*0.5, y: self.size.height*0.678)
         gameName1.zPosition = 1
         self.addChild(gameName1)
+        
+        let gameName2 = SKLabelNode(fontNamed: "spaceranger")
+        gameName2.text = "Rocket"
+        gameName2.fontSize = 150
+        gameName2.fontColor = SKColor.white
+        gameName2.position = CGPoint(x: self.size.width*0.5, y: self.size.height*0.63)
+        gameName2.zPosition = 1
+        self.addChild(gameName2)
         
         startGame.text = "Start Game"
         startGame.fontSize = 80

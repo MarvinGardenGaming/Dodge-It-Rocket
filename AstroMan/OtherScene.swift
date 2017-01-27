@@ -91,13 +91,13 @@ class OtherScene: SKScene{
         mainMenuLabel.text = "Main Menu"
         mainMenuLabel.fontSize = 90
         mainMenuLabel.fontColor = SKColor.white
-        mainMenuLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.06)
+        mainMenuLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.36)
         mainMenuLabel.zPosition = 1
         self.addChild(mainMenuLabel)
         
         mainMenuButton.xScale = 1.07
         mainMenuButton.yScale = 0.4
-        mainMenuButton.position = CGPoint(x: self.size.width/2, y: self.size.height*0.07)
+        mainMenuButton.position = CGPoint(x: self.size.width/2, y: self.size.height*0.37)
         mainMenuButton.zPosition = 0
         self.addChild(mainMenuButton)
         

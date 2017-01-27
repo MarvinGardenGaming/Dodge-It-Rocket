@@ -353,26 +353,26 @@ class ChangeShipScene: SKScene{
         mainMenuLabel.text = "Main Menu"
         mainMenuLabel.fontSize = 90
         mainMenuLabel.fontColor = SKColor.white
-        mainMenuLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.08)
+        mainMenuLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.11)
         mainMenuLabel.zPosition = 1
         self.addChild(mainMenuLabel)
 
         mainMenuButton.xScale = 1.07
         mainMenuButton.yScale = 0.4
-        mainMenuButton.position = CGPoint(x: self.size.width/2, y: self.size.height*0.09)
+        mainMenuButton.position = CGPoint(x: self.size.width/2, y: self.size.height*0.12)
         mainMenuButton.zPosition = 0
         self.addChild(mainMenuButton)
         
         changeShipColorLabel.text = "Change Color"
         changeShipColorLabel.fontSize = 90
         changeShipColorLabel.fontColor = SKColor.white
-        changeShipColorLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.18)
+        changeShipColorLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.205)
         changeShipColorLabel.zPosition = 1
         self.addChild(changeShipColorLabel)
         
         changeShipColorButton.xScale = 1.07
         changeShipColorButton.yScale = 0.4
-        changeShipColorButton.position = CGPoint(x: self.size.width/2, y: self.size.height*0.19)
+        changeShipColorButton.position = CGPoint(x: self.size.width/2, y: self.size.height*0.215)
         changeShipColorButton.zPosition = 0
         self.addChild(changeShipColorButton)
         

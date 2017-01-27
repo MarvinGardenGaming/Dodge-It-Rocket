@@ -154,7 +154,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 1  &&  chooseColor == 2{
@@ -164,7 +164,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 1  &&  chooseColor == 3{
@@ -174,7 +174,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 1  &&  chooseColor == 4{
@@ -184,7 +184,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 1  &&  chooseColor == 5{
@@ -194,7 +194,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 1  &&  chooseColor == 6{
@@ -204,7 +204,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 2  &&  chooseColor == 1{
@@ -214,7 +214,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 2  &&  chooseColor == 2{
@@ -224,7 +224,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 2  &&  chooseColor == 3{
@@ -234,7 +234,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 2  &&  chooseColor == 4{
@@ -244,7 +244,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 2  &&  chooseColor == 5{
@@ -254,7 +254,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 2  &&  chooseColor == 6{
@@ -264,7 +264,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 3  &&  chooseColor == 1{
@@ -274,7 +274,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 3  &&  chooseColor == 2{
@@ -284,7 +284,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 3  &&  chooseColor == 3{
@@ -294,7 +294,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 3  &&  chooseColor == 4{
@@ -304,7 +304,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 3  &&  chooseColor == 5{
@@ -314,7 +314,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 3  &&  chooseColor == 6{
@@ -324,7 +324,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(1)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.3)
         }
         
         if chooseShip == 4  &&  chooseColor == 1{
@@ -334,7 +334,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 4  &&  chooseColor == 2{
@@ -344,7 +344,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 4  &&  chooseColor == 3{
@@ -354,7 +354,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 4  &&  chooseColor == 4{
@@ -364,7 +364,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 4  &&  chooseColor == 5{
@@ -374,7 +374,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 4  &&  chooseColor == 6{
@@ -384,7 +384,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 5  &&  chooseColor == 1{
@@ -394,7 +394,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 5  &&  chooseColor == 2{
@@ -404,7 +404,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 5  &&  chooseColor == 3{
@@ -414,7 +414,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 5  &&  chooseColor == 4{
@@ -424,7 +424,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 5  &&  chooseColor == 5{
@@ -434,7 +434,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 5  &&  chooseColor == 6{
@@ -444,7 +444,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 6  &&  chooseColor == 1{
@@ -454,7 +454,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 6  &&  chooseColor == 2{
@@ -464,7 +464,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 6  &&  chooseColor == 3{
@@ -474,7 +474,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 6  &&  chooseColor == 4{
@@ -484,7 +484,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 6  &&  chooseColor == 5{
@@ -494,7 +494,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         if chooseShip == 6  &&  chooseColor == 6{
@@ -504,7 +504,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0, size: CGSize(width: player.size.width, height: player.size.height))
             player.size = playerTexture.size()
             player.setScale(2)
-            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 1.8)
+            player.position = CGPoint(x: self.size.width/2, y: player.size.height * 2.5)
         }
         
         player.zPosition = 6
@@ -885,9 +885,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         
         let changeSceneAction = SKAction.run(changeScene)  //References changeScene func and runs it
-        let waitToChangeScene = SKAction.wait(forDuration: 3)  //Wait for 1 second
-        let changeSceneSequence = SKAction.sequence([waitToChangeScene, changeSceneAction])  //combines change scene with wait to change scene into a sequence
-        self.run(changeSceneSequence)  //Runs the Sequence
+        if fuelCount <= 0{
+            let waitToChangeScene = SKAction.wait(forDuration: 2.3)  //Wait for 1 second
+            let changeSceneSequence = SKAction.sequence([waitToChangeScene, changeSceneAction])  //combines change scene with wait to change scene into a sequence
+            self.run(changeSceneSequence)  //Runs the Sequence
+        }
+        if fuelCount > 0{
+            let waitToChangeScene = SKAction.wait(forDuration: 2.3)  //Wait for 1 second
+            let changeSceneSequence = SKAction.sequence([waitToChangeScene, changeSceneAction])  //combines change scene with wait to change scene into a sequence
+            self.run(changeSceneSequence)  //Runs the Sequence
+        }
+
         
     }
     
@@ -929,6 +937,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             body1.node?.removeFromParent()
             body2.node?.removeFromParent()
             
+            spawnHitAsteroid()
             runGameOver()  //set up game over screen from referenced function
             
         }
@@ -1022,6 +1031,25 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let ranOutOfGasSequence = SKAction.sequence([scaleIn, fadeOut, delete])
         
         ranOutOfGasLabel.run(ranOutOfGasSequence)
+    }
+    
+    func spawnHitAsteroid(){
+        let hitAsteroidLabel = SKLabelNode(fontNamed: "spaceranger")
+        hitAsteroidLabel.text = "You Hit An Asteroid"
+        hitAsteroidLabel.fontSize = 100
+        hitAsteroidLabel.fontColor = SKColor.red
+        hitAsteroidLabel.position = CGPoint(x: self.size.width/2, y: self.size.height*0.75)
+        hitAsteroidLabel.zPosition = 3
+        hitAsteroidLabel.setScale(0)
+        self.addChild(hitAsteroidLabel)
+        
+        let scaleIn = SKAction.scale(to: 1, duration: 0.3)
+        let fadeOut = SKAction.fadeOut(withDuration: 2)
+        let delete = SKAction.removeFromParent()
+        
+        let ranOutOfGasSequence = SKAction.sequence([scaleIn, fadeOut, delete])
+        
+        hitAsteroidLabel.run(ranOutOfGasSequence)
     }
     
     

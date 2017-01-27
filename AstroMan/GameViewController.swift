@@ -51,9 +51,9 @@ class GameViewController: UIViewController, GADBannerViewDelegate {
             
             view.ignoresSiblingOrder = true
             
-            view.showsFPS = true  //DO OR DONT SHOW FPS
-            view.showsNodeCount = true  //DO OR DONT SHOW NODE COUNT
-            view.showsPhysics = true
+            view.showsFPS = false  //DO OR DONT SHOW FPS
+            view.showsNodeCount = false  //DO OR DONT SHOW NODE COUNT
+            view.showsPhysics = false
         }
     }
     
